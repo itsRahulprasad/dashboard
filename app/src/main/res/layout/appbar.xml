@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@android:color/holo_blue_dark"
+    android:id="@+id/myToolBar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_gravity="left"
+        app:srcCompat="@drawable/ic_menu"
+        android:id="@+id/hamburger"
+        tools:ignore="UnknownId,VectorDrawableCompat" />
+
+
+    <TextView
+        android:layout_width="234dp"
+        android:layout_height="55dp"
+        android:text="Paatham Public School"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/ic_person"
+        tools:ignore="VectorDrawableCompat" />
+
+
+
+</androidx.appcompat.widget.Toolbar>
