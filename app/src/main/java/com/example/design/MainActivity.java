@@ -3,6 +3,7 @@
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,16 +13,36 @@ import android.widget.Toolbar;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.ArrayList;
+import java.util.List;
+
  public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView ;
     private Toolbar toolbar;
+
+    ViewPager viewPager;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        //----slideable image view code starts
+        viewPager=findViewById(R.id.viewpager);
+
+        List<Integer> imageList =new ArrayList<>();
+        imageList.add(R.drawable.slider);
+        imageList.add(R.drawable.slider22);
+        imageList.add(R.drawable.slider23);
+
+
+
+        MyAdapter myAdapter = new MyAdapter(imageList);
+        viewPager.setAdapter(myAdapter);
+
 
 
         toolbar=findViewById(R.id.myToolBar);
