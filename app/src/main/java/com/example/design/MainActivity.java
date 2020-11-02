@@ -21,7 +21,7 @@ import java.util.List;
     private BottomNavigationView bottomNavigationView ;
     private Toolbar toolbar;
 
-    ViewPager viewPager;
+//    ViewPager viewPager;
 
 
     @Override
@@ -30,18 +30,18 @@ import java.util.List;
         setContentView(R.layout.activity_main);
 
 
-        //----slideable image view code starts
-        viewPager=findViewById(R.id.viewpager);
-
-        List<Integer> imageList =new ArrayList<>();
-        imageList.add(R.drawable.slider);
-        imageList.add(R.drawable.slider22);
-        imageList.add(R.drawable.slider23);
-
-
-
-        MyAdapter myAdapter = new MyAdapter(imageList);
-        viewPager.setAdapter(myAdapter);
+//        //----slideable image view code starts
+//        viewPager=findViewById(R.id.viewpager);
+//
+//        List<Integer> imageList =new ArrayList<>();
+//        imageList.add(R.drawable.slider);
+//        imageList.add(R.drawable.slider22);
+//        imageList.add(R.drawable.slider23);
+//
+//
+//
+//        MyAdapter myAdapter = new MyAdapter(imageList);
+//        viewPager.setAdapter(myAdapter);
 
 
 

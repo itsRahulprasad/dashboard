@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+import com.google.android.material.snackbar.Snackbar;
+
 import java.util.List;
 
 public class MyAdapter extends PagerAdapter {
@@ -37,8 +39,16 @@ public class MyAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         View view= LayoutInflater.from(container.getContext()).inflate(R.layout.image_layout,container,false);
-        ImageView imamge = view.findViewById(R.id.imageView);
-        imamge.setImageResource(list.get(position));
+        ImageView image = view.findViewById(R.id.imageView);
+        image.setImageResource(list.get(position));
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(view,"Image"+position,Snackbar.LENGTH_LONG).show();
+            }
+        });
+
+
         container.addView(view);
 
         return view;
