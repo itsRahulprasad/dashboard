@@ -17,7 +17,7 @@
         android:layout_height="55dp"
         android:layout_gravity="left"
         app:srcCompat="@drawable/ic_menu"
-        android:id="@+id/hamburger"
+        android:id="@+id/mToggle"
         tools:ignore="UnknownId,VectorDrawableCompat" />
 
 
