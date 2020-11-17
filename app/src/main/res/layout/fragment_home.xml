@@ -73,15 +73,16 @@
                 >
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/sea1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/lib"
                     android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SEASON 1"
+                    android:text="library"
+                    android:textSize="23sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -109,15 +110,16 @@
                 >
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/sea2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bank"
                     android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PROFILE"
+                    android:text="fees"
+                    android:textSize="23sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -146,15 +148,16 @@
                 >
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/season3"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/training"
                     android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="classes"
+                    android:textSize="23sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -182,15 +185,16 @@
                 >
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/seas4"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/teamwork"
                     android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="people"
+                    android:textSize="23sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -218,15 +222,16 @@
                 >
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/sea5"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/message"
                     android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="message"
+                    android:textSize="23sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -254,15 +259,16 @@
                 >
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/season6"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/scheduling"
                     android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="attendance"
+                    android:textSize="23sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -291,15 +297,16 @@
                 >
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/sea7"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/report"
                     android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="report"
+                    android:textSize="23sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -326,14 +333,16 @@
                 >
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_person"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/elearning"
+                    android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HOME"
+                    android:text="e-learning"
+                    android:textSize="23sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -361,16 +370,17 @@
                 android:gravity="center"
                 android:layout_gravity="center_vertical|center_horizontal"
                 >
-
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_person"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/admission"
+                    android:scaleType="fitXY"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NINE"
+                    android:text="admission"
+                    android:textSize="22sp"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>

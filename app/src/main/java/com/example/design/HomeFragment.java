@@ -89,9 +89,9 @@ public class HomeFragment extends Fragment {
         circleIndicator=view.findViewById(R.id.circleIndicator);
 
         List<Integer> imageList =new ArrayList<>();
-        imageList.add(R.drawable.slider);
-        imageList.add(R.drawable.slider22);
-        imageList.add(R.drawable.slider23);
+        imageList.add(R.drawable.sli1);
+        imageList.add(R.drawable.sli2);
+        imageList.add(R.drawable.sli3);
 
 
 
