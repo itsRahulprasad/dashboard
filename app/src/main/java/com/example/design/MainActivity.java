@@ -9,8 +9,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toolbar;
 
+import com.google.android.material.bottomnavigation.BottomNavigationMenu;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
@@ -21,13 +23,17 @@ import java.util.List;
     private BottomNavigationView bottomNavigationView ;
     private Toolbar toolbar;
 
+
 //    ViewPager viewPager;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
 
 //        //----slideable image view code starts
@@ -45,9 +51,14 @@ import java.util.List;
 
 
 
+
+
         toolbar=findViewById(R.id.myToolBar);
         bottomNavigationView=findViewById(R.id.bottomNav);
         bottomNavigationView.setOnNavigationItemSelectedListener(bottomNavMethod);
+
+        bottomNavigationView.setItemIconTintList(null);
+
         getSupportFragmentManager().beginTransaction().replace(R.id.container, new HomeFragment()).commit();
 
 
